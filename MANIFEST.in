@@ -1,0 +1,4 @@
+recursive-include thesis_portal/public *
+include thesis_portal/public/favicon.ico
+recursive-include thesis_portal/i18n *
+recursive-include thesis_portal/templates *
