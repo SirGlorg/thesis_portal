@@ -74,8 +74,8 @@
 <%def name="header()">
   <div id="header">
   	<h1>
-  		Welcome to TurboGears 2
-		<span class="subtitle">The Python web metaframework</span>
+  		Welcome to RedThesis 
+		<span class="subtitle">The Bachelor and Diploma Thesis Database</span>
 	</h1>
   </div>
 </%def>

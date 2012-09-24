@@ -213,6 +213,7 @@ form.loginfields input#submit
 }
 
 /* Sidebar */
+
 .sidebar {
   border: 1px solid #cce;
   background-color: #eee;
@@ -309,6 +310,14 @@ background:#EEEEFF url(../images/info.png) no-repeat scroll 10px center;
 }
 .notice {
 background:#EEEEFF url(../images/info.png) no-repeat scroll 10px center;
+}
+
+.sidebar .notice {
+clear: both;
+width: 160px;
+background: #EEEEFF url(../images/info_small.png) no-repeat scroll 0px center;
+padding: 7px 10px 7px 30px;
+line-height: 28px;
 }
 .fielderror {
 color:red;

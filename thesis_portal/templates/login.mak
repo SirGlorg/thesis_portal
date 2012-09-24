@@ -1,5 +1,14 @@
 <%inherit file="local:templates.master"/>
 <%def name="title()">Login Form</%def>
+<div class="sidebar">
+    <span class="notice">
+        <a href="${tg.url('/sendPassword')}">Forgotten password?</a>
+    </span>
+<br/>
+    <span class="notice">
+        Please write down your login and password
+    </span>
+</div>
 <div id="loginform">
 <form action="${tg.url('/login_handler', params=dict(came_from=came_from.encode('utf-8'), __logins=login_counter.encode('utf-8')))}" method="POST" class="loginfields">
     <h2><span>Login</span></h2>
